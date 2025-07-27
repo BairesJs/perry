@@ -8,8 +8,8 @@
     
     
 <script type="module">
-import init, * as bindings from '/yew_app-aa483be9e2a5f251.js';
-const wasm = await init({ module_or_path: '/yew_app-aa483be9e2a5f251_bg.wasm' });
+import init, * as bindings from '/perry/yew_app-aa483be9e2a5f251.js';
+const wasm = await init({ module_or_path: '/perry/yew_app-aa483be9e2a5f251_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -21,7 +21,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     
     <link rel="stylesheet" href="/public/css/style.css" />
 
-<link rel="modulepreload" href="/yew_app-aa483be9e2a5f251.js" crossorigin="anonymous" integrity="sha384-R3WR4xyqaW2s+3bK5JfhJWWFS11/X4KdiIgVYo9eGudkQnIvGeE1eIl6BYxR/t7+"><link rel="preload" href="/yew_app-aa483be9e2a5f251_bg.wasm" crossorigin="anonymous" integrity="sha384-hIgit4XBKCODUrErV2boGSowhPMTrkIdde37a04YlDElT6Cy2PSiQJ68gm7hoC2s" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/perry/yew_app-aa483be9e2a5f251.js" crossorigin="anonymous" integrity="sha384-R3WR4xyqaW2s+3bK5JfhJWWFS11/X4KdiIgVYo9eGudkQnIvGeE1eIl6BYxR/t7+"><link rel="preload" href="/yew_app-aa483be9e2a5f251_bg.wasm" crossorigin="anonymous" integrity="sha384-hIgit4XBKCODUrErV2boGSowhPMTrkIdde37a04YlDElT6Cy2PSiQJ68gm7hoC2s" as="fetch" type="application/wasm"></head>
 <body>
     
 <script>"use strict";
