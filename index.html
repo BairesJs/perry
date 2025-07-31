@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>yew-app-Document</title>
+    
+    
+<script type="module">
+import init, * as bindings from '/perry/perry_app-26b51b4910f6c63a.js';
+const wasm = await init({ module_or_path: '/perry/perry_app-26b51b4910f6c63a_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    
+    <link rel="stylesheet" href="/public/css/style.css" />
+   
+
+<link rel="modulepreload" href="/perry/perry_app-26b51b4910f6c63a.js" crossorigin="anonymous" integrity="sha384-db8lpiT2lEI7MwT0Q0gANChbAhPYU3cz6IAJuhIs+wX0pfLISCTCdENR5JSj8pHl"><link rel="preload" href="/perry/perry_app-26b51b4910f6c63a_bg.wasm" crossorigin="anonymous" integrity="sha384-WtV5Fn/BEC4zjW8Sba8AWrSEJoON6oTJ/vGy1KvyWaAd2Wk0u/KUq5XvrlB4G73H" as="fetch" type="application/wasm"></head>
+<body>
+    
+</body>
+</html>
